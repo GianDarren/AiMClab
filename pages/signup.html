@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - AiMClab</title>
+    <link rel="stylesheet" href="../css/signup-styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <h1>AiMClab</h1>
+        </div>
+        <div class="header-box">
+            <h2>Sign-Up Form</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-box">
+            <form action="" id="signupForm" class="signup-form" onsubmit="formValidation(event)">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <button class="continue-btn">Continue</button>
+                <div id="error-line">Error Line</div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-media"><p>Follow Us</p></div>
+        <div class="social-media">
+            <img src="../assets/🦆 icon _circle linkedin_.svg" alt="linkedin">
+            <img src="../assets/./🦆 icon _instagram_.svg" alt="instagram">
+            <img src="../assets/🦆 icon _rounded facebook_.svg" alt="facebook">
+        </div>
+        <div class="support">
+            <img src="../assets/🦆 icon _comment square_.svg" alt="comment">
+            <label for="Support">Support</label>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 AiMClab</p>
+        </div>
+        <div class="navigation-icons">
+            <a href="../pages/home.html"><img src="../assets/🦆 icon _home_.svg" alt="home"></a>
+            <a href="../pages/about.html"><img src="../assets/🦆 icon _group_.svg" alt="group"></a>
+            <a href="../pages/storepage.html"><img src="../assets/🦆 icon _shop alt_.svg" alt="shop"></a>
+            <a href="../pages/leaderboard.html"><img src="../assets/🦆 icon _leaderboard star_.svg" alt="leaderboard"></a>
+        </div>
+    </footer>
+
+    <script src="../js/signup-validation.js"></script>
+</body>
+</html>
